@@ -809,10 +809,11 @@
 			text-decoration: none;
 			font-weight: 300;
 			line-height: 1em;
-			font-size: 7em;
+			font-size: 5em;
+			text-shadow: #000000 0 0 10px;
 			color: #FFF;
 			letter-spacing: -0.05em;
-			margin: 0 0 0.125em 0;
+			margin: 0 0 -0.725em 0;
 		}
 
 		#logo span
@@ -831,7 +832,7 @@
 
 		#nav-wrapper
 		{
-			background: rgba(0,0,0,.1);
+			background: rgba(0,0,0,.8);
 			position: absolute;
 			top: 0;
 			left: 0;
