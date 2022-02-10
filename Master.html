@@ -33,6 +33,19 @@ layout: default2
   Canvas not supported; please update your browser.
 </canvas>
 
+<script>
+
+The script can be placed inside either head or body, but I usually put it in the latter, after all of the page’s visible content. So please do that, and then put the following JavaScript code inside the script:
+
+var theCanvas = document.getElementById("theCanvas");
+var theContext = theCanvas.getContext("2d");
+theContext.beginPath();
+theContext.arc(300, 50, 5, 0, 2*Math.PI);
+theContext.fillStyle = "red";
+theContext.fill();
+
+  // JavaScript code goes here.
+</script>
 </body>
 	<div class="container">
 		<div class="row">
