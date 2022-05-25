@@ -5,141 +5,25 @@ layout: default2
 
 <!-- Main -->
 
-<div id="main">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Newton's Cannon</title>
+ <meta charset="utf-8">
+ <title>Newton's Cannon</title>
 </head>
-
-<body style="font-family:sans-serif; font-size:15px; width:600px; 
-    margin-left:auto; margin-right:auto; 
-    background-color:#e0e0e0;">
-
-  <h1 style="font-size:24px; text-align:center;">
-    Newton's Cannon
-  </h1>
-
-
-  <p>This simulation is based on Isaac Newton's famous thought
-  experiment and illustration of firing a projectile from a high
-  mountaintop at various speeds, as he described in
-  <a href="http://books.google.com/books?id=DXE9AAAAcAAJ">A 
-  Treatise of the System of the World</a>.</p>
-  
-<canvas id="theCanvas" width="500" height="500">
-  Canvas not supported; please update your browser.
-</canvas>
-
-<script>
-
-The script can be placed inside either head or body, but I usually put it in the latter, after all of the page’s visible content. So please do that, and then put the following JavaScript code inside the script:
-
-var theCanvas = document.getElementById("theCanvas");
-var theContext = theCanvas.getContext("2d");
-theContext.beginPath();
-theContext.arc(300, 50, 5, 0, 2*Math.PI);
-theContext.fillStyle = "red";
-theContext.fill();
-
-  // JavaScript code goes here.
-</script>
+<body style="font-family:sans-serif; font-size:15px; width:600px;
+ margin-left:auto; margin-right:auto;
+ background-color:#e0e0e0;">
+ <h1 style="font-size:24px; text-align:center;">
+ Newton's Cannon
+ </h1>
+ <div style="width:500px; margin-left:auto; margin-right:auto;">
+ <img src="NewtonDrawing.jpg" width="500" height="500">
+ </div>
+ <p>This simulation is based on Isaac Newton's famous thought
+ experiment and illustration of firing a projectile from a high
+ mountaintop at various speeds, as he described in
+ <a href="http://books.google.com/books?id= DXE9AAAAcAAJ">A
+ Treatise of the System of the World</a>.</p>
 </body>
-	<div class="container">
-		<div class="row">
-			{% include sidebar.html %}
-			<div id="content" class="8u skel-cell-important">
-				<section>
-					<header>
-						<h2>Clases y archivos</h2>
-					</header>
-					<ul class="post-list">
-						<br>
-						<li><header><a href="" target="_blank" style="font-size:25px"></a></header>
-						</li>
-					</ul>
-				</section>
-				<hr  class="line" style='margin-top:-1em'>
-				<section>
-					<header>
-						<h2>Excels</h2>
-					</header>
-					<ul class="post-list">
-						<br>
-						<li><header><a href="https://docs.google.com/spreadsheets/d/1izQFJByWYMw_GMUciDygd0yYCZIElU8-/export?format=xlsx" target="_blank" style="font-size:25px">Datos de Migraciones en España</a></header>
-						Datos para la clase de Introducción. Datos de migraciones entre provincias de España para 2019 y 2020.</li>
-						<br>
-						<li><header><a href="https://docs.google.com/spreadsheets/d/11wP6jB_Z9f6HoNO14Cu--3UZFJU4-385/export?format=xlsx" target="_blank" style="font-size:25px">Datos de Comercio en España</a></header>
-						Datos para la clase de Economía Internacional. Datos de exportaciones e importaciones españolas desde 1988.</li>
-						<br>
-						<li><header><a href="https://docs.google.com/spreadsheets/d/1a-0mYL7U8g4olW9lR051XpeKpnkNkbeT/export?format=xlsx" target="_blank" style="font-size:25px">Datos de Comercio en EU27</a></header>
-						Datos para la clase de Economía Internacional. Datos de exportaciones e importaciones de la UE27 para el 99 y el 20.</li>
-						</ul>
-				</section>
-				<hr  class="line" style='margin-top:-1em'>
-				<section>
-					<header>
-						<h2>Clases</h2>
-					</header>
-					<ul class="post-list">
-						<br>
-						<li><header><a href="https://docs.google.com/spreadsheets/d/11wP6jB_Z9f6HoNO14Cu--3UZFJU4-385/export?format=xlsx" target="_blank" style="font-size:25px">Datos de Comercio en España</a></header>
-						Datos para la clase de Economía Internacional. Datos de exportaciones e importaciones españolas desde 1988.</li>
-						<br>
-						<li><header><a href="https://docs.google.com/spreadsheets/d/1a-0mYL7U8g4olW9lR051XpeKpnkNkbeT/export?format=xlsx" target="_blank" style="font-size:25px">Datos de Comercio en EU27</a></header>
-						Datos para la clase de Economía Internacional. Datos de exportaciones e importaciones de la UE27 para el 99 y el 20.</li>
-						</ul>
-				</section>
-			</div>
-		</div>
-	</div>
-</div>
-					<!--
-								<section>
-
-									<p>Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Donec nonummy magna quis risus. Quisque eleifend. Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit.</p>
-									<p>Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus.</p>
-									<p>Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus.</p>
-
-								</section>
-							-->
-
-
-
-					<!-- /Main -->
-
-
-
-
-
-<!-- Content
-				<div id="content" class="8u skel-cell-important">
-					<section>
-						<header>
-							<h2>Artículos</h2>
-												<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-											</header>
-
-							<ul class="post-list">
-								{% for post in site.posts %}
-								<section>
-									<li>
-										<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-											<br>
-				<header>
-					<br>
-					<h2 style="color:#069"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-				</header>
-				<p>{{ post.excerpt }}</p>
-				</section>
-				<br>
-									</li>
-								{% endfor %}
-							</ul>
-				</div>
--->
-
-
-
-
-
-<!-- /Main -->
+</html>
