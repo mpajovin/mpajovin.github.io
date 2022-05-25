@@ -33,6 +33,7 @@ var x = 300;
 var y = 50;
 moveProjectile();
 function drawProjectile() {
+ theContext.clearRect(0, 0, theCanvas.width, theCanvas.height);
  theContext.beginPath();
  theContext.arc(x, y, 5, 0, 2*Math.PI);
  theContext.fillStyle = "red";
