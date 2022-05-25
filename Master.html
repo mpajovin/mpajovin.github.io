@@ -28,5 +28,13 @@ layout: default2
  mountaintop at various speeds, as he described in
  <a href="http://books.google.com/books?id= DXE9AAAAcAAJ">A
  Treatise of the System of the World</a>.</p>
+ <script>
+ var theCanvas = document.getElementById("theCanvas");
+var theContext = theCanvas.getContext("2d");
+theContext.beginPath();
+theContext.arc(300, 50, 5, 0, 2*Math.PI);
+theContext.fillStyle = "red";
+theContext.fill();
+</script>
 </body>
 </html>
